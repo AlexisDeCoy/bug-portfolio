@@ -47,16 +47,16 @@ const Contact = () => {
                         <p className="contact-label">Email</p>
                         <div
                             className={`clipboard`}
-                            onClick={() => {
-                                navigator.clipboard.writeText('alexraykarplus@gmail.com');
-                                console.log('clicked');
-                                setCopyClick(true);
-                            }}
-                            onAnimationEnd={() => setCopyClick(false)}
+                            // onClick={() => {
+                            //     navigator.clipboard.writeText('alexraykarplus@gmail.com');
+                            //     console.log('clicked');
+                            //     setCopyClick(true);
+                            // }}
+                            // onAnimationEnd={() => setCopyClick(false)}
                         >
                             <p>alexraykarplus@gmail.com</p>
-                            <div className={`clipboard-hover`}>copy to clipboard</div>
-                            <div className={`clipboard-popup ${copyClick ? "copyClick" : ""}`}>copied</div>
+                            {/* <div className={`clipboard-hover`}>copy to clipboard</div>
+                            <div className={`clipboard-popup ${copyClick ? "copyClick" : ""}`}>copied</div> */}
                         </div>
                     </div>
 
