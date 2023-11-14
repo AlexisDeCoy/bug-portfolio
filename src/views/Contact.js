@@ -16,7 +16,7 @@ const Contact = () => {
             <hr />
 
             <div className="page-title">
-                <h3>Contact Info</h3>
+                <h3>Contact Test</h3>
             </div>
 
             <main>
