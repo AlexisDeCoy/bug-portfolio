@@ -49,7 +49,6 @@ const Contact = () => {
                             className={`clipboard`}
                             onClick={() => {
                                 navigator.clipboard.writeText('alexraykarplus@gmail.com');
-                                console.log('clicked');
                                 setCopyClick(true);
                             }}
                             onAnimationEnd={() => setCopyClick(false)}
