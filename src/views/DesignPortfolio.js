@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import Nav from './Nav';
+// import Calendar from '../imgs/graphicDesign/InDesign_Calendar.pdf'
+
 
 const DesignPortfolio = () => {
 
@@ -22,6 +24,12 @@ const DesignPortfolio = () => {
             <div className="artist-statement">
                 Page in progress
             </div>
+
+            {/* <img src={Calendar}></img> */}
+            {/* <object data={Calendar}
+                width="800"
+                height="500">
+            </object> */}
 
             <div className="portfolio-spacer" />
 

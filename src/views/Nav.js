@@ -3,12 +3,14 @@ import { useLocation, useNavigate } from "react-router-dom"
 
 const Nav = () => {
     const [openDropDown, setOpenDropDown] = useState(false);
+    // const [openMobile, setOpenMobile] = useState(false);
     let location = useLocation().pathname;
     let navigate = useNavigate();
 
     return (
         <header>
             <div className="header-spacer" />
+            <h1 className='mobile-name' onClick={() => navigate('/')}>BUG KARPLUS</h1>
             <nav>
                 <h1 onClick={() => navigate('/')}>BUG KARPLUS</h1>
                 <ul className="link-list">
@@ -16,7 +18,7 @@ const Nav = () => {
                     <li
                         className={`dropdown ${(location === '/prints/portfolio' || location === '/designs/portfolio') ? "active" : ""} ${openDropDown ? 'open-dropdown' : ''}`}
                         onClick={() => openDropDown ? setOpenDropDown(false) : setOpenDropDown(true)}
-                    >PORTFOLIO
+                    ><span>PORTFOLIO</span>
                         <div className="dropdown-content">
                             <p onClick={() => navigate('/designs/portfolio')}>GRAPHIC DESIGN</p>
                             <hr />

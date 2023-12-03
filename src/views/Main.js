@@ -8,29 +8,44 @@ const Main = () => {
         document.title = 'Bug Karplus - Home';
     }, []);
 
-    return(
-    <div className='body'>
-        <Nav />
+    return (
+        <div className='body'>
+            <Nav />
 
-        <hr />
+            <hr />
 
-        <div className="page-title">
-            <h3>Events</h3>
-        </div>
+            <div className="home-spacer" />
 
-        <div className="events">
-            Check out the <a href="https://www.youtube.com/@asmRAY1">asmRAY</a> YouTube channel for personal
-            attention ASMR videos
-        </div>
 
-        <hr />
-
-        <main>
-            <div className="img-preview">
-                <img src={HomePagePhoto} className="feature" alt="Home Page" />
+            {/* <div className="page-title">
+                <h3>Events</h3>
             </div>
 
-            <div className="accomplishments">
+            <div className="events">
+                Check out the <a href="https://www.youtube.com/@asmRAY1">asmRAY</a> YouTube channel for personal
+                attention ASMR videos
+            </div>
+
+            <hr /> */}
+
+            <main>
+                <div className="img-preview">
+                    <img src={HomePagePhoto} className="feature" alt="Home Page" />
+                </div>
+
+                <div className="home-title">
+                    Hi!
+                    <br />
+                    I'm Bug
+                </div>
+
+                {/* 
+                <div className="quote">
+                    "As stupid and vicious as men are, this is a lovely day"
+                    Kurt Vonnegut
+                </div> */}
+
+                {/* <div className="accomplishments">
                 <div className="placeholder">Page in progress</div>
                 <div className="year">
                     2023
@@ -77,13 +92,13 @@ const Main = () => {
                             illo expedita placeat quidem quas repellat porro!</li>
                     </ul>
                 </div>
-            </div>
-        </main>
+            </div> */}
+            </main>
 
-        <hr />
+            {/* <hr /> */}
 
-        <footer />
-    </div>
+            <footer />
+        </div>
     )
 }
 

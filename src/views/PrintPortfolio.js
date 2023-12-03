@@ -29,7 +29,7 @@ const PrintPortfolio = () => {
 
             <div className="portfolio-spacer" />
 
-            <hr />
+            {/* <hr /> */}
         </div>
     )
 }

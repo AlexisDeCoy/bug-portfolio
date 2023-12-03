@@ -28,13 +28,13 @@ const ArtistStatement = () => {
                 I create in hope that my work will encourage viewers to consider the place in which they and other life forms belong."
             </div>
 
-            <hr />
+            {/* <hr /> */}
 
             <div className="artist-statement-image">
                 <img src={ArtistStatementPhoto} className="artist-statement-image" alt="Artist Statement"></img>
             </div>
 
-            <hr />
+            {/* <hr /> */}
 
             <footer />
         </div>

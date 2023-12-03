@@ -66,7 +66,7 @@ const Contact = () => {
                 </div>
             </main>
 
-            <hr />
+            {/* <hr /> */}
 
             <footer />
         </div>
