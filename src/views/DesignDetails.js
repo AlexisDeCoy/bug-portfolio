@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react'
-import { useParams } from "react-router-dom";
-import Nav from './Nav';
-import PrintImages from '../documents/PrintImages';
-import { PrintData } from '../documents/PrintData';
+import { useParams } from 'react-router-dom';
+import Nav from '../components/Nav';
+import DesignImages from '../documents/DesignImages';
+import { DesignData } from '../documents/DesignData';
+// import '../styles/Details.css'
 
-const Details = () => {
+const DesignDetails = () => {
     const { id } = useParams();
-    const itemDetails = PrintData[id];
-    const img = PrintImages[itemDetails.img];
+    const itemDetails = DesignData[id];
 
     useEffect(() => {
         document.title = itemDetails.title;
@@ -17,30 +17,66 @@ const Details = () => {
         <div className='body'>
             <Nav />
 
-            <hr />
+            {itemDetails.positions ? (
+                <div className='details-grid'>
+                    <div className='details-container-left'>
+                        <div className='label'>{itemDetails.title}</div>
+                        <div className='details-info'>{itemDetails.software}</div>
+                        <div className='details-year'>{itemDetails.year}</div>
+                        {itemDetails.pdf &&
+                            <a
+                                className='pdf'
+                                href={DesignImages[itemDetails.pdf]}
+                                target='_blank'
+                                rel='noopener noreferrer'
+                            >
+                                Download PDF
+                            </a>
+                        }
+                    </div>
 
-            <div className="details-title">
-                <h3>{itemDetails.title}</h3>
-            </div>
+                    {itemDetails.imgs.map((img, i) =>
+                        <div
+                            className='details-grid-img-container'
+                            key={i}
+                            style={{
+                                alignItems: itemDetails.positions[i][0],
+                                gridColumn: itemDetails.positions[i][1],
+                                gridRow: itemDetails.positions[i][2],
+                                justifyContent: itemDetails.positions[i][3],
+                            }}
+                        >
+                            <img className='details-img' src={DesignImages[img]} alt='' />
+                        </div>
+                    )}
+                </div>
+            ) : (
+                <div>
+                    <div className='details-container-center'>
+                        <div className='label'>{itemDetails.title}</div>
+                        <div className='details-info'>{itemDetails.software}</div>
+                        <div className='details-year'>{itemDetails.year}</div>
+                        {itemDetails.pdf ?
+                            <a
+                                className='pdf'
+                                href={DesignImages[itemDetails.pdf]}
+                                target='_blank'
+                                rel='noopener noreferrer'
+                            >
+                                Download PDF
+                            </a>
+                        : null}
+                    </div>
 
-            <div>
-                <h4 className='details-type'>{itemDetails.type}</h4>
-                <h4 className='details-year'>{itemDetails.year}</h4>
-            </div>
-
-            <div className="details-spacer" />
-
-            <hr />
-
-            <div className="artist-statement-image">
-                <img src={img} className="artist-statement-image" alt="Artist Statement"></img>
-            </div>
-
-            <hr />
+                    <div className='details-img-container'>
+                        <img className='details-img' src={DesignImages[itemDetails.imgs[0]]} alt='' />
+                    </div>
+                </div>
+            )}
 
             <footer />
         </div>
     )
 }
 
-export default Details;
+export default DesignDetails;

@@ -1,0 +1,20 @@
+.cv-section {
+  margin-bottom: 2vh;
+}
+
+.cv-section > :nth-child(n+3) {
+  margin-top: 2vh;
+}
+
+.cv-item {
+  display: flex;
+  margin-top: 0.5vh;
+}  
+
+.cv-item-year {
+  min-width: 13vw;
+}
+
+.cv-item-content > :not(:first-child) {
+  margin-top: 1.5vh;
+}

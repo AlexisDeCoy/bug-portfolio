@@ -1,0 +1,86 @@
+.home-img {
+    align-self: center;
+    width: 35%;
+}
+
+.home-img img {
+    display: block;
+    width: 100%;
+}
+
+.home-content {
+    align-self: center;
+    text-align: left;
+    width: 60%;
+}
+
+.home-text {
+    font-size: calc(12px + 0.5vw);
+    font-weight: 500;
+    line-height: 1.3em;
+}
+
+@media (max-width: 768px) {
+    .home-img {
+        display: block;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .home-content {
+        background-color: #FFFFFFA0;
+        border-radius: 10%;
+        box-shadow: 0 0 18px 20px #FFFFFFA0;
+        color: black;
+        font-size: 18px;
+        padding: 1%;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 80%;
+    }
+}
+
+/* unused */
+
+/* .home-spacer {
+    height: 45px;
+    width: 100%;
+} */
+
+/* .artist-statement-image {
+    margin: 25px 0;
+    max-width: 100%;
+} */
+
+/* .events {
+    margin: 25px 0;
+    text-align: center;
+} */
+
+/* .quote {
+    text-align: center;
+    width: 47.5%;
+} */
+
+/* .accomplishments {
+    width: 47.5%;
+} */
+
+/* .accomplishments .placeholder {
+    text-align: center;
+} */
+
+/* .year {
+    font-size: 16px;
+} */
+
+/* .year ul {
+    font-size: 13px;
+    list-style-type: none;
+} */
+
+/* .year ul li::before {
+    content: '-';
+} */

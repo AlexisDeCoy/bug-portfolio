@@ -1,22 +1,27 @@
-import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Main from './views/Main';
+
+import Home from './views/Home';
 import PrintPortfolio from './views/PrintPortfolio';
-import DesignPortfolio from './views/DesignPortfolio';
 import PrintDetails from './views/PrintDetails';
-import ArtistStatement from './views/ArtistStatement';
+import DesignPortfolio from './views/DesignPortfolio';
+import DesignDetails from './views/DesignDetails';
+// import DesignDetailsTest from './views/DesignDetailsTest';
 import CurriculumVitae from './views/CurriculumVitae';
 import Contact from './views/Contact';
+
+import './App.css';
+import './styles/Details.css'
 
 function App() {
   return (
     <div className='App'>
       <Routes>
-        <Route element={<Main />} path='/' />
+        <Route element={<Home />} path='/' />
         <Route element={<PrintPortfolio />} path='/prints/portfolio' />
-        <Route element={<DesignPortfolio />} path='/designs/portfolio' />
         <Route element={<PrintDetails />} path='/prints/:id' />
-        <Route element={<ArtistStatement />} path='/artist-statement' />
+        <Route element={<DesignPortfolio />} path='/designs/portfolio' />
+        <Route element={<DesignDetails />} path='/designs/:id' />
+        {/* <Route element={<DesignDetailsTest />} path='/designs/test' /> */}
         <Route element={<CurriculumVitae />} path='/curriculum-vitae' />
         <Route element={<Contact />} path='/contact' />
       </Routes>

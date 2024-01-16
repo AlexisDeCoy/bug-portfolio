@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Nav from './Nav';
-import ContactPhoto from '../imgs/ContactPhoto.jpg'
+import Nav from '../components/Nav';
+import ContactPhoto from '../imgs/ContactPageSmall.png'
+import '../styles/Contact.css'
 
 const Contact = () => {
     const [copyClick, setCopyClick] = useState(false);
@@ -13,18 +14,13 @@ const Contact = () => {
         <div className='body'>
             <Nav />
 
-            <hr />
-
-            <div className="page-title">
-                <h3>Contact Info</h3>
-            </div>
-
             <main>
-                <div className="img-preview">
-                    <img src={ContactPhoto} className="feature" alt="Contact"></img>
+                <div className="contact-img">
+                    <img src={ContactPhoto} alt="Contact" />
                 </div>
 
                 <div className="contact-info">
+                    <div className="title">Contact Info</div>
                     <div className="contact-info-section">
                         <p>
                             Please feel free to contact me with questions
@@ -33,18 +29,17 @@ const Contact = () => {
                     </div>
 
                     <div className="contact-info-section">
-                        <p className="contact-label">Instagram</p>
-                        <p>Personal - <a href='https://www.instagram.com/buggie.ray.official/'>@buggie.ray.official</a></p>
-                        <p>Art - <a href='https://www.instagram.com/mush_room_bug/'>@mush_room_bug</a></p>
+                        <p className="label">Instagram</p>
+                        <p><a href='https://www.instagram.com/mush_room_bug/'>@mush_room_bug</a></p>
                     </div>
 
                     <div className="contact-info-section">
-                        <p className="contact-label">YouTube</p>
-                        <p>ASMR - <a href="https://www.youtube.com/@asmRAY1">@asmRAY</a></p>
+                        <p className="label">YouTube</p>
+                        <p><a href="https://www.youtube.com/@asmRAY1">youtube.com/asmRAY1</a></p>
                     </div>
 
                     <div className="contact-info-section">
-                        <p className="contact-label">Email</p>
+                        <p className="label">Email</p>
                         <div
                             className={`clipboard`}
                             onClick={() => {
@@ -60,13 +55,11 @@ const Contact = () => {
                     </div>
 
                     <div className="contact-info-section">
-                        <p className="contact-label">Phone</p>
+                        <p className="label">Phone</p>
                         <p>+1 (310) 773-1196</p>
                     </div>
                 </div>
             </main>
-
-            {/* <hr /> */}
 
             <footer />
         </div>

@@ -7,6 +7,8 @@
 
 # testing
 /coverage
+/src/views/Unused.js
+/src/views/DesignDetailsTest.js
 
 # production
 /build

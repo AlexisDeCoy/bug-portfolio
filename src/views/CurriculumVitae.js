@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
-import Nav from './Nav';
+import Nav from '../components/Nav';
 import PDF from '../documents/KarplusB_ArtistCV.pdf';
+import '../styles/CurriculumVitae.css'
+import { CVData } from '../documents/CVData';
 
 
 const CurriculumVitae = () => {
@@ -13,81 +15,35 @@ const CurriculumVitae = () => {
         <div className='body'>
             <Nav />
 
-            <hr />
-
-            <div className="page-title">
-                <h3>Alexander "Bug" Karplus</h3>
-                <h3>Curriculum Vitae</h3>
+            <div className="label text-center">
+                Alexander "Bug" Karplus
+                <br />
+                Curriculum Vitae
             </div>
 
-            <div className="cv-section-title">Education</div>
+            {CVData.map((section, i) =>
+                <div className="cv-section" key={i}>
+                    <div className="label">{section.sectionTitle}</div>
 
-            <div className="cv-item">
-                <div className="cv-item-year">2023</div>
-                <div className="cv-item-content">
-                    <div>AA, Front Range Community College, Fort Collins, CO <em>(anticipated)</em></div>
-                    <div className="cv-item-content-spacer" />
-                    <div>Certificate of Multimedia Fundamentals <em>(anticipated)</em></div>
+                    {section.year.map((year, i) =>
+                        <div className="cv-item" key={i}>
+                            <div className="cv-item-year">{year.value}</div>
+                            <div className="cv-item-content">
+                                {year.items.map((item, i) => 
+                                    item.length === 1 ?
+                                    (<div key={i}>{item[0]}</div>)
+                                    :
+                                    (<div key={i}><em>{item[0]}</em>{item[1]}</div>)
+                                )}
+                            </div>
+                        </div>
+                    )}
                 </div>
+            )}
+
+            <div className="pdf text-center">
+                <a href={PDF} target='_blank' rel='noopener noreferrer'>Download PDF</a>
             </div>
-
-            <div className="cv-section-spacer" />
-
-            <div className="cv-section-title">Group Exhibitions</div>
-
-            <div className="cv-item">
-                <div className="cv-item-year">2023</div>
-                <div className="cv-item-content">
-                    <div><em>FRCC Student Art Show,</em> Art Lab Fort Collins, Fort Collins, CO</div>
-                    <div className="cv-item-content-spacer" />
-                    <div>
-                        <em>Anarchy, Rules We Should Break, and Mutual Destruction,</em> Iowa State University Memorial
-                        Union Gallery, Ames, IA
-                    </div>
-                </div>
-            </div>
-
-            <div className="cv-item-content-spacer" />
-
-            <div className="cv-item">
-                <div className="cv-item-year">2022</div>
-                <div className="cv-item-content"><em>The Overwintering Project,</em> Louis Joel Gallery, Altona Victoria, Australia</div>
-            </div>
-
-            <div className="cv-section-spacer" />
-
-            <div className="cv-section-title">Juried Exhibitions</div>
-
-            <div className="cv-item">
-                <div className="cv-item-year">2024</div>
-                <div className="cv-item-content"><em>528.0</em> Arvada Center for the Arts and Humanities, Arvada, CO</div>
-            </div>
-
-            <div className="cv-section-spacer" />
-
-            <div className="cv-section-title">Publication</div>
-
-            <div className="cv-item">
-                <div className="cv-item-year">2023</div>
-                <div className="cv-item-content"><em>AvantArt Magazine</em> Issue 2, Front Range Community College</div>
-            </div>
-
-            <div className="cv-item-content-spacer" />
-
-            <div className="cv-item">
-                <div className="cv-item-year">2022</div>
-                <div className="cv-item-content"><em>AvantArt Magazine</em> Issue 1, Front Range Community College</div>
-            </div>
-
-            <div className="cv-section-spacer" />
-
-            <div className="cv-pdf">
-                <a href = {PDF} target='_blank' rel='noopener noreferrer'>Download PDF</a>
-                </div>
-
-            <div className="cv-section-spacer" />
-
-            {/* <hr /> */}
 
             <footer />
         </div>

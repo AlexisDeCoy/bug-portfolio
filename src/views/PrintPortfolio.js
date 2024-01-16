@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
-import Nav from './Nav';
-import GalleryItem from './GalleryItem';
+import Nav from '../components/Nav';
+import PrintGalleryItem from '../components/PrintGalleryItem';
 import { PrintData } from '../documents/PrintData';
+import '../styles/Portfolio.css'
 
 const PrintPortfolio = () => {
 
@@ -13,23 +14,13 @@ const PrintPortfolio = () => {
         <div className='body'>
             <Nav />
 
-            <hr />
-
-            <div className="page-title">
-                <h3>Prints</h3>
-            </div>
-
-            <div className="portfolio-spacer-top" />
-
-            <div className="portfolio-gallery">
+            <div className="grid-gallery">
                 {PrintData.map((item, i) =>
-                    <GalleryItem key={i} index={i} />
+                    <PrintGalleryItem key={i} index={i} />
                 )}
             </div>
 
-            <div className="portfolio-spacer" />
-
-            {/* <hr /> */}
+            <footer />
         </div>
     )
 }
