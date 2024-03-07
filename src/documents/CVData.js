@@ -6,7 +6,8 @@ export const CVData = [
                 value: 2023,
                 items: [
                     ["AA, Front Range Community College, Fort Collins, CO"],
-                    ["Certificate of Multimedia Fundamentals"]
+                    ["Certificate of Multimedia Fundamentals"],
+                    ["Assistant at The Beet Education Center printmaking workshop, Loveland, CO"]
                 ]
             }
         ]
@@ -36,7 +37,9 @@ export const CVData = [
                 value: 2024,
                 items: [ 
                     ["528.0,", " Arvada Center for the Arts and Humanities, Arvada, CO"],
-                    ["MoPrint @1011,", " Littleton, CO"]
+                    ["MoPrint @1011,", " Littleton, CO"],
+                    ["A Fine Print,", " Lakewood Arts Center, Lakewood CO"],
+                    ["Printed Page IV,", " Spark Gallery, Denver, CO"]
                 ]
             }
         ]
