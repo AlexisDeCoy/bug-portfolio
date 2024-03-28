@@ -8,6 +8,7 @@ import DesignDetails from './views/DesignDetails';
 // import DesignDetailsTest from './views/DesignDetailsTest';
 import CurriculumVitae from './views/CurriculumVitae';
 import Contact from './views/Contact';
+import Birthday from './views/Birthday';
 
 import './App.css';
 import './styles/Details.css'
@@ -17,6 +18,7 @@ function App() {
     <div className='App'>
       <Routes>
         <Route element={<Home />} path='/' />
+        <Route element={<Birthday />} path='/happy-birthday' />
         <Route element={<PrintPortfolio />} path='/prints/portfolio' />
         <Route element={<PrintDetails />} path='/prints/:id' />
         <Route element={<DesignPortfolio />} path='/designs/portfolio' />
