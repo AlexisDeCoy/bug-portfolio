@@ -2,7 +2,7 @@ export default function Lighter({ open, openLighter, lit, lightLighter }) {
     const topClasses = open ? ' open lighter-top' : 'lighter-top';
     return (
         <div id="lighter">
-            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" onClick={open ? lit ? undefined : lightLighter : openLighter}>
+            <svg id='lighter-svg' viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" onClick={open ? lit ? undefined : lightLighter : openLighter}>
                 <defs>
                     <linearGradient id="lighter-gradient" x1='0' x2='100%'>
                         <stop offset="0%" stopColor="#717376" />

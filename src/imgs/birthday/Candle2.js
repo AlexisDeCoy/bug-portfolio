@@ -4,7 +4,7 @@ export default function Candle2({ lit, onClick }) {
   return (
     <div className="candle-2">
       <Wick candle='two' lit={lit} onClick={onClick}/>
-      <svg className='candle' viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <svg id='candle-two-svg' className='candle' viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
         <defs></defs>
         <path d="M 43 49 L 29 62 A 31 28 0 0 1 50 12 A 28 28 0 0 1 78 40 A 32 32 0 0 1 62 66 L 78 69 L 75 87 L 24 89 L 55 44 A 7 7 0 0 0 44 37 A 8 8 0 0 0 43 49 Z" fill='#fffffa' stroke='#b00' strokeWidth={4} strokeLinejoin="round"></path>
         <path d="M 37.193 25.787 L 38.307 28.174 L 40.987 28.466 L 38.995 30.233 L 39.538 32.801 L 37.193 31.506 L 34.848 32.801 L 35.391 30.233 L 33.399 28.466 L 36.079 28.174 Z" fill="orange" transform-origin='29.2877% 30.0682%' transform="matrix(0.811086, -0.584927, 0.584927, 0.811086, -1.647546, 0.754169)"></path >
