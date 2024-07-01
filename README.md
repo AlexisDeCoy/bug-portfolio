@@ -14,4 +14,3 @@ This was my first formal React project, and I've really come to like JavaScript.
 
 ## Next Steps
 With the next update, I want to add a way for the client to be able to add information to the site directly, without my involvement. Doing so is an absolute necessity for other customers going forward.  There are a few ease of use changes I want to add as well, especially a way to switch between works without having to return to the selection page. Finally, I want to integrate a shop page, so people interested in purchasing the art can do so without going to a different site.
-
