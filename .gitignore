@@ -9,6 +9,9 @@
 /coverage
 /src/views/Unused.js
 /src/views/DesignDetailsTest.js
+/src/documents/birthday.css
+/src/imgs/birthday/lighter.svg
+/src/views/Birthday.js
 
 # production
 /build

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Nav from '../components/Nav';
-import HomePagePhoto from '../imgs/HomePage.jpg'
+import HomePagePhoto from '../imgs/HomePageNewCropped.jpg'
 import '../styles/Home.css'
 
 const Home = () => {
@@ -24,13 +24,22 @@ const Home = () => {
                     </div>
 
                     <div className="home-text">
-                        My work is a way for me to explore ideas of ethics and principles in the form of visual storytelling.
-                        These themes are executed through illustration and a blend of printmaking techniques.
-                        At the heart of my work lie recurring motifs including animals, language, and human-like forms.
-                        I love to explore the interaction between the natural and the unnatural, delving into the complex relationships that exist between human and non-human animals.
-                        I create in the realms of conflict and symbiosis, inviting viewers to contemplate the connection between all living beings.
-                        My work is playful, incorporating vibrant colors and striking contrasts, while having a slight hint of something darker and more enigmatic.
-                        I create in hope that my work will encourage viewers to consider the place in which they and other life forms belong.
+                        <p>My inspiration often begins with the mundane: a house, a cat, a cup of tea. In framing my compositions around the typical, I aim to present them in new ways.
+                            My art becomes an ode to these often overlooked elements of daily life. My love for animals is also evident. Their presence can express stories and difficult emotions in a simple and universal way.
+                            My works explore the interaction between the natural and the unnatural worlds, particularly the relationships that exist between human and non-human animals.
+                        </p>
+                        <br />
+                        <p>
+                            Printmaking is my medium of choice. Working through a matrix satisfies my meticulous nature while teaching me to let go;
+                            the final image, with its reversals and transformations, is always a bit beyond my control. My latest work is in transforming my 2D pieces into 3D forms,
+                            allowing me to further explore how representation can influence the distance between art and observer.
+                        </p>
+                        <br />
+                        <p>
+                            I use vibrant colors and striking contrasts to playfully articulate experiences I cannot otherwise express. My art is the language of my heart, the “words” with which I speak of my emotions, curiosities, and ideals. 
+                            I create in the hope that my work will encourage viewers to consider the place in which they and other life forms belong.
+                        </p>
+
                     </div>
                 </div>
             </main>
