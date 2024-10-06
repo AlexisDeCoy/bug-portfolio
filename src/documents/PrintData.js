@@ -1,5 +1,53 @@
 export const PrintData = [
     {
+        title: "Mercy",
+        type: "Linocut, 10\"x10\"",
+        year: "2024",
+        img: "mercy"
+    },
+    {
+        title: "Dance of the Half Minotaur",
+        type: "Reductive Linocut, 8.5\"x4.75\"",
+        year: "2024",
+        img: "danceOfTheHalfMinotaur"
+    },
+    {
+        title: "Buck in Wheat Field",
+        type: "Relief, 72\"x36\"",
+        year: "2024",
+        img: "buckInWheatField"
+    },
+    {
+        title: "Kitten's Blessing",
+        type: "Copper Etching, 9\"x8\"",
+        year: "2024",
+        img: "kittensBlessing"
+    },
+    {
+        title: "Pastel Houses",
+        type: "Screenprint, Flat: 14\"x11\", Folded: 6\"x3\"x2.75\"",
+        year: "2024",
+        img: "karplusHouses"
+    },
+    {
+        title: "Ye Olde Print Shoppe",
+        type: "Screenprint, Flat: 11\"x14\", Folded: 4.5\"x4\"x2\"",
+        year: "2024",
+        img: "karplusPrintShoppeFront"
+    },
+    {
+        title: "Lief",
+        type: "Screenprint, Flat: 11\"x14\", Folded: 6\"x4\"x2\"",
+        year: "2024",
+        img: "lief1"
+    },
+    {
+        title: "Fiacre",
+        type: "Screenprint, Flat: 11\"x14\", Folded: 6\"x4\"x2\"",
+        year: "2024",
+        img: "fiacre1"
+    },
+    {
         title: "The Screenprinter",
         type: "Multi-plate Etching, Screenprint, 7\"x9\"",
         year: "2024",
@@ -35,12 +83,12 @@ export const PrintData = [
         year: "2023",
         img: "theWorldIsQuietHere"
     },
-    {
-        title: "Warrior Rests",
-        type: "Aquatint, 9\"x6\"",
-        year: "2023",
-        img: "warriorRests"
-    },
+    // {
+    //     title: "Warrior Rests",
+    //     type: "Aquatint, 9\"x6\"",
+    //     year: "2023",
+    //     img: "warriorRests"
+    // },
     {
         title: "The Tigress Dies",
         type: "Woodcut, 9\"x11\"",
@@ -59,18 +107,18 @@ export const PrintData = [
         year: "2022",
         img: "unnaturalAnimals"
     },
-    {
-        title: "Tigershark",
-        type: "Photopolymer Relief, 4\"x8\"",
-        year: "2022",
-        img: "tigershark"
-    },
-    {
-        title: "The Tiger and The Rabbit",
-        type: "Copper Etching, 7\"x9\"",
-        year: "2022",
-        img: "theTigerAndTheRabbit"
-    },
+    // {
+    //     title: "Tigershark",
+    //     type: "Photopolymer Relief, 4\"x8\"",
+    //     year: "2022",
+    //     img: "tigershark"
+    // },
+    // {
+    //     title: "The Tiger and The Rabbit",
+    //     type: "Copper Etching, 7\"x9\"",
+    //     year: "2022",
+    //     img: "theTigerAndTheRabbit"
+    // },
     {
         title: "Ishmael",
         type: "Woodcut, 12\"x16\"",
