@@ -1,5 +1,36 @@
 export const PrintData = [
     {
+        title: "Analogue Correspondence",
+        type: "Cyanotype, Relief, and Screenprint, TBD\"xTBD\"",
+        year: "2025",
+        img: "TBD"
+    },
+    {
+        title: "Self; Made",
+        type: "Kombucha Paper, Embroidery, and Ink, TBD\"xTBD\"",
+        year: "2025",
+        img: "TBD"
+    },
+    {
+        title: "Medusa Americana (Scene from the Wreckage)",
+        type: "Woodcut, 22\"x30\"",
+        year: "2025",
+        img: "TBD"
+    },
+    {
+        title: "This Body We Share",
+        type: "Screenprint, TBD\"xTBD\"",
+        year: "2025",
+        img: "TBD"
+    },
+    {
+        title: "Blueprint for a Haunted House",
+        type: "Cyanotype, Screenprint and Colored Pencil, 15\"x22\"",
+        year: "2025",
+        img: "TBD"
+    },
+
+    {
         title: "Mercy",
         type: "Linocut, 10\"x10\"",
         year: "2024",

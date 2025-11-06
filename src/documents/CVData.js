@@ -5,15 +5,15 @@ export const CVData = [
             {
                 value: 2024,
                 items: [
-                    ["Frogman’s Print Workshops, Iowa City, IA"]
+                    ["Frogman's Print Workshops, Iowa City, IA"]
                 ]
             },
             {
                 value: 2023,
                 items: [
                     ["AA, Front Range Community College, Fort Collins, CO"],
-                    ["Certificate of Multimedia Fundamentals"],
-                    ["Assistant at The Beet Education Center printmaking workshop, Loveland, CO"]
+                    ["Assistant at The Beet Education Center printmaking workshop, Loveland, CO"],
+                    ["Certificate of Multimedia Fundamentals"]
                 ]
             }
         ]
@@ -22,10 +22,16 @@ export const CVData = [
         sectionTitle: "Group Exhibitions",
         year: [
             {
+                value: 2025,
+                items: [
+                    ["Hello Plant Friend,", " Traveling group exhibition, in collaboration with the Hello Print Friend Podcast"]
+                ]
+            },
+            {
                 value: 2023,
                 items: [
-                    ["FRCC Student Art Show,", " Art Lab Fort Collins, Fort Collins, CO"],
-                    ["Anarchy, Rules We Should Break, and Mutual Destruction,", " Iowa State University Memorial Union Gallery, Ames, IA"]
+                    ["Anarchy, Rules We Should Break, and Mutual Destruction,", " Iowa State University Memorial Union Gallery, Ames, IA"],
+                    ["FRCC Student Art Show,", " Art Lab Fort Collins, Fort Collins, CO"]
                 ]
             },
             {
@@ -40,13 +46,20 @@ export const CVData = [
         sectionTitle: "Juried Exhibitions",
         year: [
             {
+                value: 2026,
+                items: [
+                    ["Annual Student Exhibition,", " Curfman Gallery, Fort Collins, CO"],
+                    ["Printed Page V,", " Anderson Academic Commons, Denver, CO"]
+                ]
+            },
+            {
                 value: 2024,
                 items: [
                     ["528.0,", " Arvada Center for the Arts and Humanities, Arvada, CO"],
-                    ["MoPrint @1011,", " Littleton, CO"],
                     ["A Fine Print,", " Lakewood Arts Center, Lakewood CO"],
+                    ["MoPrint @1011,", " Littleton, CO"],
                     ["Printed Page IV,", " Spark Gallery, Denver, CO"],
-                    ["Stand Out Prints,", " Highpoint Center for Printmaking, Minneapolis, MN"],
+                    ["Stand Out Prints,", " Highpoint Center for Printmaking, Minneapolis, MN"]
                 ]
             }
         ]
