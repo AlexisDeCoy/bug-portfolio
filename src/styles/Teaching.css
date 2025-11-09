@@ -1,0 +1,39 @@
+.content-block {
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    margin: 2vh 0;
+}
+
+.block-img {
+    width: 40%;
+}
+
+.block-img img {
+    width: 100%;
+}
+
+.block-text {
+    width: 60%;
+}
+
+.block-text p {
+    font-size: calc(10px + 1vw);
+    font-weight: 500;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .content-block {
+        flex-direction: column;
+    }
+
+    .block-img {
+        width: 100%;
+    }
+
+    .block-text {
+        width: 100%;
+    }
+}
