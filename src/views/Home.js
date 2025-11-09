@@ -14,7 +14,7 @@ const Home = () => {
         <div className='body'>
             <Nav />
 
-            <div className='content-block' id='bio' style={{'margin-top': 0}}>
+            <div className='content-block' id='bio' style={{'marginTop': 0}}>
                 <div className='block-img'>
                     <img src={BioPhoto} id='bio-photo' alt="Bio: So It Goes (2024)" />
                 </div>
