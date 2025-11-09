@@ -3,6 +3,13 @@ export const CVData = [
         sectionTitle: "Education",
         year: [
             {
+                value: "In Progress",
+                items: [
+                    ["BFA, Printmaking Concentration, Colorado State University, Fort Collins, CO"],
+                    ["Certificate of Korean Studies, Colorado State University, Fort Collins, CO"]
+                ]
+            },
+            {
                 value: 2024,
                 items: [
                     ["Frogman's Print Workshops, Iowa City, IA"]
@@ -12,8 +19,24 @@ export const CVData = [
                 value: 2023,
                 items: [
                     ["AA, Front Range Community College, Fort Collins, CO"],
-                    ["Assistant at The Beet Education Center printmaking workshop, Loveland, CO"],
                     ["Certificate of Multimedia Fundamentals"]
+                ]
+            }
+        ]
+    },
+    {
+        sectionTitle: "Teaching & Work Experience",
+        year: [
+            {
+                value: "2023 - Present",
+                items: [
+                    ["Teaching Assistant, The Beet Education Center printmaking workshop, Loveland, CO"],
+                ]
+            },
+            {
+                value: 2025,
+                items: [
+                    ["Printmaking Instructor, Frost Valley YMCA, Claryville, NY"],
                 ]
             }
         ]
