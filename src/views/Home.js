@@ -6,7 +6,7 @@ import '../styles/Home.css'
 function contentImage(v) {
     return (
         <div className='block-img'>
-            <img src={v.img.src} id={`${v}-photo`} alt={v.img.alt} />
+            <img src={v.img.src} id={`${v.id}-photo`} alt={v.img.alt} />
         </div>
     )
 }
@@ -21,17 +21,17 @@ const Home = () => {
         <div className='body'>
             <Nav />
 
-            {Object.entries(data).map(([k, v], i) =>
+            {data.map((v, i) =>
                 <div key={i} >
                     {i ? <hr /> : null}
-                    <div className='content-block' id={k} style={!i ? { 'marginTop': 0 } : {}}>
+                    <div className='content-block' id={v.id} style={!i ? { 'marginTop': 0 } : {}}>
                         {i % 2 === 0 ? contentImage(v) : null}
                         <div className="block-text">
-                            <div className="title" id={`${v}-header`}>{v.text.title}</div>
+                            <div className="title" id={`${v.id}-header`}>{v.text.title}</div>
                             {v.text.content.map((t, i) =>
                                 <div key={i}>
                                     {i ? <br /> : null}
-                                    <p id={`bio-text-${i}`}>{t}</p>
+                                    <p id={`${v.id}-text-${i}`}>{t}</p>
                                 </div>
                             )}
                         </div>
