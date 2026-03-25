@@ -32,8 +32,6 @@ const PrintDetails = () => {
                 <div className='details-year'>{item.year}</div>
             </div>
 
-            <div className="details-spacer" />
-
             {item.images.map((img, i) =>
                 <div className="details-img-container" key={i}>
                     <img className="details-img" src={img.src} alt={img.alt} />

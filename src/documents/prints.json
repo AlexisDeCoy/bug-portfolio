@@ -318,7 +318,19 @@
         "images": [
             {
                 "src": "../imgs/prints/ye_olde_print_shoppe/01.jpg",
-                "alt": "Ye Olde Print Shoppe"
+                "alt": "Ye Olde Print Shoppe Front"
+            },
+            {
+                "src": "../imgs/prints/ye_olde_print_shoppe/02.jpg",
+                "alt": "Ye Olde Print Shoppe Back"
+            },
+            {
+                "src": "../imgs/prints/ye_olde_print_shoppe/03.jpg",
+                "alt": "Ye Olde Print Shoppe Right Side"
+            },
+            {
+                "src": "../imgs/prints/ye_olde_print_shoppe/04.jpg",
+                "alt": "Ye Olde Print Shoppe Left Side"
             }
         ],
         "exhibitions": [],
@@ -347,7 +359,23 @@
         "images": [
             {
                 "src": "../imgs/prints/lief/01.jpg",
-                "alt": "Lief"
+                "alt": "Lief Angled"
+            },
+            {
+                "src": "../imgs/prints/lief/02.jpg",
+                "alt": "Lief Front"
+            },
+            {
+                "src": "../imgs/prints/lief/03.jpg",
+                "alt": "Lief Back"
+            },
+            {
+                "src": "../imgs/prints/lief/04.jpg",
+                "alt": "Lief Right Side"
+            },
+            {
+                "src": "../imgs/prints/lief/05.jpg",
+                "alt": "Lief Left Side"
             }
         ],
         "exhibitions": [],
@@ -376,7 +404,31 @@
         "images": [
             {
                 "src": "../imgs/prints/fiacre/01.jpg",
-                "alt": "Fiacre"
+                "alt": "Fiacre Angled With Bike"
+            },
+            {
+                "src": "../imgs/prints/fiacre/02.jpg",
+                "alt": "Fiacre Front With Bike"
+            },
+            {
+                "src": "../imgs/prints/fiacre/03.jpg",
+                "alt": "Fiacre Front"
+            },
+            {
+                "src": "../imgs/prints/fiacre/04.jpg",
+                "alt": "Fiacre Back"
+            },
+            {
+                "src": "../imgs/prints/fiacre/05.jpg",
+                "alt": "Fiacre Right"
+            },
+            {
+                "src": "../imgs/prints/fiacre/06.jpg",
+                "alt": "Fiacre Left"
+            },
+            {
+                "src": "../imgs/prints/fiacre/07.jpg",
+                "alt": "Fiacre Flat"
             }
         ],
         "exhibitions": [],
