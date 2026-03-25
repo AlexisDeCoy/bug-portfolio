@@ -27,7 +27,8 @@
                 "alt": "Analogue Correspondence"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "self_made": {
         "title": "Self; Made",
@@ -57,7 +58,8 @@
                 "alt": "Self; Made"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "medusa_americana": {
         "title": "Medusa Americana (Scene from the Wreckage)",
@@ -85,7 +87,8 @@
                 "alt": "Medusa Americana (Scene from the Wreckage)"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "this_body_we_share": {
         "title": "This Body We Share",
@@ -113,7 +116,8 @@
                 "alt": "This Body We Share"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "blueprint_for_a_haunted_house": {
         "title": "Blueprint for a Haunted House",
@@ -143,7 +147,8 @@
                 "alt": "Blueprint for a Haunted House"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "mercy": {
         "title": "Mercy",
@@ -171,7 +176,8 @@
                 "alt": "Mercy"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "dance_of_the_half_minotaur": {
         "title": "Dance of the Half Minotaur",
@@ -199,7 +205,8 @@
                 "alt": "Dance of the Half Minotaur"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "buck_in_wheat_field": {
         "title": "Buck in Wheat Field",
@@ -227,7 +234,8 @@
                 "alt": "Buck in Wheat Field"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "kittens_blessing": {
         "title": "Kitten's Blessing",
@@ -255,7 +263,8 @@
                 "alt": "Kitten's Blessing"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "pastel_houses": {
         "title": "Pastel Houses",
@@ -283,7 +292,8 @@
                 "alt": "Pastel Houses"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "ye_olde_print_shoppe": {
         "title": "Ye Olde Print Shoppe",
@@ -311,7 +321,8 @@
                 "alt": "Ye Olde Print Shoppe"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "lief": {
         "title": "Lief",
@@ -339,7 +350,8 @@
                 "alt": "Lief"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "fiacre": {
         "title": "Fiacre",
@@ -367,7 +379,8 @@
                 "alt": "Fiacre"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "the_screenprinter": {
         "title": "The Screenprinter",
@@ -396,7 +409,8 @@
                 "alt": "The Screenprinter"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "sea_serpent_divided": {
         "title": "Sea Serpent Divided",
@@ -425,7 +439,8 @@
                 "alt": "Sea Serpent Divided"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "explosion_picking_up_the_pieces": {
         "title": "Explosion (Picking Up the Pieces)",
@@ -455,7 +470,8 @@
                 "alt": "Explosion (Picking Up the Pieces)"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "tea_ceremony": {
         "title": "Tea Ceremony",
@@ -483,7 +499,8 @@
                 "alt": "Tea Ceremony"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "brother": {
         "title": "Brother",
@@ -511,7 +528,8 @@
                 "alt": "Brother"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "the_world_is_quiet_here": {
         "title": "The World Is Quiet Here",
@@ -539,7 +557,37 @@
                 "alt": "The World Is Quiet Here"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
+    },
+    "warrior_rests": {
+        "title": "Warrior Rests",
+        "id": "warrior_rests",
+        "types": [
+            "Aquatint"
+        ],
+        "dimensions": {
+            "height": 9,
+            "width": 6,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2023,
+        "thumbnail": {
+            "src": "../imgs/prints/warrior_rests/thumb.jpg",
+            "alt": "Warrior Rests Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/warrior_rests/01.jpg",
+                "alt": "Warrior Rests"
+            }
+        ],
+        "exhibitions": [],
+        "hidden": true
     },
     "the_tigress_dies": {
         "title": "The Tigress Dies",
@@ -567,7 +615,8 @@
                 "alt": "The Tigress Dies"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "contradictions": {
         "title": "Contradictions",
@@ -595,7 +644,8 @@
                 "alt": "Contradictions"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "unnatural_animals": {
         "title": "Unnatural Animals",
@@ -623,7 +673,66 @@
                 "alt": "Unnatural Animals"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
+    },
+    "tigershark": {
+        "title": "Tigershark",
+        "id": "tigershark",
+        "types": [
+            "Photopolymer Relief"
+        ],
+        "dimensions": {
+            "height": 4,
+            "width": 8,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2022,
+        "thumbnail": {
+            "src": "../imgs/prints/tigershark/thumb.jpg",
+            "alt": "Tigershark Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/tigershark/01.jpg",
+                "alt": "Tigershark"
+            }
+        ],
+        "exhibitions": [],
+        "hidden": true
+    },
+    "the_tiger_and_the_rabbit": {
+        "title": "The Tiger and The Rabbit",
+        "id": "the_tiger_and_the_rabbit",
+        "types": [
+            "Copper Etching"
+        ],
+        "dimensions": {
+            "height": 7,
+            "width": 9,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2022,
+        "thumbnail": {
+            "src": "../imgs/prints/the_tiger_and_the_rabbit/thumb.jpg",
+            "alt": "The Tiger and The Rabbit Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/the_tiger_and_the_rabbit/01.jpg",
+                "alt": "The Tiger and The Rabbit"
+            }
+        ],
+        "exhibitions": [],
+        "hidden": true
     },
     "ishmael": {
         "title": "Ishmael",
@@ -651,7 +760,8 @@
                 "alt": "Ishmael"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     },
     "the_hanged_man": {
         "title": "The Hanged Man",
@@ -679,6 +789,7 @@
                 "alt": "The Hanged Man"
             }
         ],
-        "exhibitions": []
+        "exhibitions": [],
+        "hidden": false
     }
 }
