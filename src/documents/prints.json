@@ -1,0 +1,684 @@
+{
+    "analogue_correspondence": {
+        "title": "Analogue Correspondence",
+        "id": "analogue_correspondence",
+        "types": [
+            "Cyanotype",
+            "Relief",
+            "Screenprint"
+        ],
+        "dimensions": {
+            "height": null,
+            "width": null,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2025,
+        "thumbnail": {
+            "src": "../imgs/prints/analogue_correspondence/thumb.jpg",
+            "alt": "Analogue Correspondence Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/analogue_correspondence/01.jpg",
+                "alt": "Analogue Correspondence"
+            }
+        ],
+        "exhibitions": []
+    },
+    "self_made": {
+        "title": "Self; Made",
+        "id": "self_made",
+        "types": [
+            "Kombucha Paper",
+            "Embroidery",
+            "Ink"
+        ],
+        "dimensions": {
+            "height": null,
+            "width": null,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2025,
+        "thumbnail": {
+            "src": "../imgs/prints/self_made/thumb.jpg",
+            "alt": "Self; Made Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/self_made/01.jpg",
+                "alt": "Self; Made"
+            }
+        ],
+        "exhibitions": []
+    },
+    "medusa_americana": {
+        "title": "Medusa Americana (Scene from the Wreckage)",
+        "id": "medusa_americana",
+        "types": [
+            "Woodcut"
+        ],
+        "dimensions": {
+            "height": 22,
+            "width": 30,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2025,
+        "thumbnail": {
+            "src": "../imgs/prints/medusa_americana/thumb.jpg",
+            "alt": "Medusa Americana (Scene from the Wre Thumbnailckage)"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/medusa_americana/01.jpg",
+                "alt": "Medusa Americana (Scene from the Wreckage)"
+            }
+        ],
+        "exhibitions": []
+    },
+    "this_body_we_share": {
+        "title": "This Body We Share",
+        "id": "this_body_we_share",
+        "types": [
+            "Screenprint"
+        ],
+        "dimensions": {
+            "height": null,
+            "width": null,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2025,
+        "thumbnail": {
+            "src": "../imgs/prints/this_body_we_share/thumb.jpg",
+            "alt": "This Body We Share Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/this_body_we_share/01.jpg",
+                "alt": "This Body We Share"
+            }
+        ],
+        "exhibitions": []
+    },
+    "blueprint_for_a_haunted_house": {
+        "title": "Blueprint for a Haunted House",
+        "id": "blueprint_for_a_haunted_house",
+        "types": [
+            "Cyanotype",
+            "Screenprint",
+            "Colored Pencil"
+        ],
+        "dimensions": {
+            "height": 15,
+            "width": 22,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2025,
+        "thumbnail": {
+            "src": "../imgs/prints/blueprint_for_a_haunted_house/thumb.jpg",
+            "alt": "Blueprint for a Haunted House Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/blueprint_for_a_haunted_house/01.jpg",
+                "alt": "Blueprint for a Haunted House"
+            }
+        ],
+        "exhibitions": []
+    },
+    "mercy": {
+        "title": "Mercy",
+        "id": "mercy",
+        "types": [
+            "Linocut"
+        ],
+        "dimensions": {
+            "height": 10,
+            "width": 10,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2024,
+        "thumbnail": {
+            "src": "../imgs/prints/mercy/thumb.jpg",
+            "alt": "Mercy Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/mercy/01.jpg",
+                "alt": "Mercy"
+            }
+        ],
+        "exhibitions": []
+    },
+    "dance_of_the_half_minotaur": {
+        "title": "Dance of the Half Minotaur",
+        "id": "dance_of_the_half_minotaur",
+        "types": [
+            "Reductive Linocut"
+        ],
+        "dimensions": {
+            "height": 8.5,
+            "width": 4.75,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2024,
+        "thumbnail": {
+            "src": "../imgs/prints/dance_of_the_half_minotaur/thumb.jpg",
+            "alt": "Dance of the Half Minotaur Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/dance_of_the_half_minotaur/01.jpg",
+                "alt": "Dance of the Half Minotaur"
+            }
+        ],
+        "exhibitions": []
+    },
+    "buck_in_wheat_field": {
+        "title": "Buck in Wheat Field",
+        "id": "buck_in_wheat_field",
+        "types": [
+            "Relief"
+        ],
+        "dimensions": {
+            "height": 72,
+            "width": 36,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2024,
+        "thumbnail": {
+            "src": "../imgs/prints/buck_in_wheat_field/thumb.jpg",
+            "alt": "Buck in Wheat Field Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/buck_in_wheat_field/01.jpg",
+                "alt": "Buck in Wheat Field"
+            }
+        ],
+        "exhibitions": []
+    },
+    "kittens_blessing": {
+        "title": "Kitten's Blessing",
+        "id": "kittens_blessing",
+        "types": [
+            "Copper Etching"
+        ],
+        "dimensions": {
+            "height": 9,
+            "width": 8,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2024,
+        "thumbnail": {
+            "src": "../imgs/prints/kittens_blessing/thumb.jpg",
+            "alt": "Kitten's Blessing Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/kittens_blessing/01.jpg",
+                "alt": "Kitten's Blessing"
+            }
+        ],
+        "exhibitions": []
+    },
+    "pastel_houses": {
+        "title": "Pastel Houses",
+        "id": "pastel_houses",
+        "types": [
+            "Screenprint"
+        ],
+        "dimensions": {
+            "height": 14,
+            "width": 11,
+            "depth": null,
+            "foldable": true,
+            "fHeight": 6,
+            "fWidth": 3,
+            "fDepth": 2.75
+        },
+        "year": 2024,
+        "thumbnail": {
+            "src": "../imgs/prints/pastel_houses/thumb.jpg",
+            "alt": "Pastel Houses Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/pastel_houses/01.jpg",
+                "alt": "Pastel Houses"
+            }
+        ],
+        "exhibitions": []
+    },
+    "ye_olde_print_shoppe": {
+        "title": "Ye Olde Print Shoppe",
+        "id": "ye_olde_print_shoppe",
+        "types": [
+            "Screenprint"
+        ],
+        "dimensions": {
+            "height": 11,
+            "width": 14,
+            "depth": null,
+            "foldable": true,
+            "fHeight": 4.5,
+            "fWidth": 4,
+            "fDepth": 2
+        },
+        "year": 2024,
+        "thumbnail": {
+            "src": "../imgs/prints/ye_olde_print_shoppe/thumb.jpg",
+            "alt": "Ye Olde Print Shoppe Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/ye_olde_print_shoppe/01.jpg",
+                "alt": "Ye Olde Print Shoppe"
+            }
+        ],
+        "exhibitions": []
+    },
+    "lief": {
+        "title": "Lief",
+        "id": "lief",
+        "types": [
+            "Screenprint"
+        ],
+        "dimensions": {
+            "height": 11,
+            "width": 14,
+            "depth": null,
+            "foldable": true,
+            "fHeight": 6,
+            "fWidth": 4,
+            "fDepth": 2
+        },
+        "year": 2024,
+        "thumbnail": {
+            "src": "../imgs/prints/lief/thumb.jpg",
+            "alt": "Lief Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/lief/01.jpg",
+                "alt": "Lief"
+            }
+        ],
+        "exhibitions": []
+    },
+    "fiacre": {
+        "title": "Fiacre",
+        "id": "fiacre",
+        "types": [
+            "Screenprint"
+        ],
+        "dimensions": {
+            "height": 11,
+            "width": 14,
+            "depth": null,
+            "foldable": true,
+            "fHeight": 6,
+            "fWidth": 4,
+            "fDepth": 2
+        },
+        "year": 2024,
+        "thumbnail": {
+            "src": "../imgs/prints/fiacre/thumb.jpg",
+            "alt": "Fiacre Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/fiacre/01.jpg",
+                "alt": "Fiacre"
+            }
+        ],
+        "exhibitions": []
+    },
+    "the_screenprinter": {
+        "title": "The Screenprinter",
+        "id": "the_screenprinter",
+        "types": [
+            "Multi-plate Etching",
+            "Screenprint"
+        ],
+        "dimensions": {
+            "height": 7,
+            "width": 9,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2024,
+        "thumbnail": {
+            "src": "../imgs/prints/the_screenprinter/thumb.jpg",
+            "alt": "The Screenprinter Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/the_screenprinter/01.jpg",
+                "alt": "The Screenprinter"
+            }
+        ],
+        "exhibitions": []
+    },
+    "sea_serpent_divided": {
+        "title": "Sea Serpent Divided",
+        "id": "sea_serpent_divided",
+        "types": [
+            "Screenprint",
+            "Hand Coloring"
+        ],
+        "dimensions": {
+            "height": 25,
+            "width": 8,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2024,
+        "thumbnail": {
+            "src": "../imgs/prints/sea_serpent_divided/thumb.jpg",
+            "alt": "Sea Serpent Divided Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/sea_serpent_divided/01.jpg",
+                "alt": "Sea Serpent Divided"
+            }
+        ],
+        "exhibitions": []
+    },
+    "explosion_picking_up_the_pieces": {
+        "title": "Explosion (Picking Up the Pieces)",
+        "id": "explosion_picking_up_the_pieces",
+        "types": [
+            "Screenprint",
+            "Resin",
+            "Matches"
+        ],
+        "dimensions": {
+            "height": 4,
+            "width": 4,
+            "depth": 2,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2023,
+        "thumbnail": {
+            "src": "../imgs/prints/explosion_picking_up_the_pieces/thumb.jpg",
+            "alt": "Explosion (Picking Up the Pieces) Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/explosion_picking_up_the_pieces/01.jpg",
+                "alt": "Explosion (Picking Up the Pieces)"
+            }
+        ],
+        "exhibitions": []
+    },
+    "tea_ceremony": {
+        "title": "Tea Ceremony",
+        "id": "tea_ceremony",
+        "types": [
+            "Jigsaw Linocut"
+        ],
+        "dimensions": {
+            "height": 10,
+            "width": 10,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2023,
+        "thumbnail": {
+            "src": "../imgs/prints/tea_ceremony/thumb.jpg",
+            "alt": "Tea Ceremony Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/tea_ceremony/01.jpg",
+                "alt": "Tea Ceremony"
+            }
+        ],
+        "exhibitions": []
+    },
+    "brother": {
+        "title": "Brother",
+        "id": "brother",
+        "types": [
+            "Reductive Linocut"
+        ],
+        "dimensions": {
+            "height": 13,
+            "width": 10,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2023,
+        "thumbnail": {
+            "src": "../imgs/prints/brother/thumb.jpg",
+            "alt": "Brother Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/brother/01.jpg",
+                "alt": "Brother"
+            }
+        ],
+        "exhibitions": []
+    },
+    "the_world_is_quiet_here": {
+        "title": "The World Is Quiet Here",
+        "id": "the_world_is_quiet_here",
+        "types": [
+            "Screenprint"
+        ],
+        "dimensions": {
+            "height": 14,
+            "width": 11,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2023,
+        "thumbnail": {
+            "src": "../imgs/prints/the_world_is_quiet_here/thumb.jpg",
+            "alt": "The World Is Quiet Here Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/the_world_is_quiet_here/01.jpg",
+                "alt": "The World Is Quiet Here"
+            }
+        ],
+        "exhibitions": []
+    },
+    "the_tigress_dies": {
+        "title": "The Tigress Dies",
+        "id": "the_tigress_dies",
+        "types": [
+            "Woodcut"
+        ],
+        "dimensions": {
+            "height": 9,
+            "width": 11,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2023,
+        "thumbnail": {
+            "src": "../imgs/prints/the_tigress_dies/thumb.jpg",
+            "alt": "The Tigress Dies Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/the_tigress_dies/01.jpg",
+                "alt": "The Tigress Dies"
+            }
+        ],
+        "exhibitions": []
+    },
+    "contradictions": {
+        "title": "Contradictions",
+        "id": "contradictions",
+        "types": [
+            "Linocut"
+        ],
+        "dimensions": {
+            "height": 5,
+            "width": 3,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2023,
+        "thumbnail": {
+            "src": "../imgs/prints/contradictions/thumb.jpg",
+            "alt": "Contradictions Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/contradictions/01.jpg",
+                "alt": "Contradictions"
+            }
+        ],
+        "exhibitions": []
+    },
+    "unnatural_animals": {
+        "title": "Unnatural Animals",
+        "id": "unnatural_animals",
+        "types": [
+            "Linocut"
+        ],
+        "dimensions": {
+            "height": 10,
+            "width": 10,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2022,
+        "thumbnail": {
+            "src": "../imgs/prints/unnatural_animals/thumb.jpg",
+            "alt": "Unnatural Animals Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/unnatural_animals/01.jpg",
+                "alt": "Unnatural Animals"
+            }
+        ],
+        "exhibitions": []
+    },
+    "ishmael": {
+        "title": "Ishmael",
+        "id": "ishmael",
+        "types": [
+            "Woodcut"
+        ],
+        "dimensions": {
+            "height": 12,
+            "width": 16,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2022,
+        "thumbnail": {
+            "src": "../imgs/prints/ishmael/thumb.jpg",
+            "alt": "Ishmael Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/ishmael/01.jpg",
+                "alt": "Ishmael"
+            }
+        ],
+        "exhibitions": []
+    },
+    "the_hanged_man": {
+        "title": "The Hanged Man",
+        "id": "the_hanged_man",
+        "types": [
+            "Linocut"
+        ],
+        "dimensions": {
+            "height": 17,
+            "width": 11,
+            "depth": null,
+            "foldable": false,
+            "fHeight": null,
+            "fWidth": null,
+            "fDepth": null
+        },
+        "year": 2022,
+        "thumbnail": {
+            "src": "../imgs/prints/the_hanged_man/thumb.jpg",
+            "alt": "The Hanged Man Thumbnail"
+        },
+        "images": [
+            {
+                "src": "../imgs/prints/the_hanged_man/01.jpg",
+                "alt": "The Hanged Man"
+            }
+        ],
+        "exhibitions": []
+    }
+}
