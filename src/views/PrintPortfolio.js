@@ -15,7 +15,7 @@ const PrintPortfolio = () => {
             <Nav />
 
             <div className="grid-gallery">
-                {Object.values(data).map((item, i) =>
+                {Object.values(data).filter((item) => !item.hidden).map((item, i) =>
                     <PrintGalleryItem key={i} index={i} item={item} />
                 )}
             </div>
