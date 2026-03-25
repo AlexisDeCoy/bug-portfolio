@@ -1,33 +1,42 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { useParams } from "react-router-dom";
 import Nav from '../components/Nav';
-import PrintImages from '../documents/PrintImages';
-import { PrintData } from '../documents/PrintData';
+import data from '../documents/prints.json';
 
 const PrintDetails = () => {
     const { id } = useParams();
-    const itemDetails = PrintData[id];
-    const img = PrintImages[itemDetails.img];
+    const item = data[id];
 
     useEffect(() => {
-        document.title = itemDetails.title;
-    }, [itemDetails.title]);
+        document.title = item.title;
+    }, [item.title]);
 
     return (
         <div className='body'>
             <Nav />
 
             <div className="details-container-center">
-                <div className='label'>{itemDetails.title}</div>
-                <div className='details-info'>{itemDetails.type}</div>
-                <div className='details-year'>{itemDetails.year}</div>
+                <div className='label' id="item-title">{item.title}</div>
+                <div className='details-info' id='item-types'>
+                    {item.types.map((t, i) => <span key={i}>{i > 0 ? ", " : ""}{t}</span>)}
+                </div>
+                <div className='details-info' id='item-dims'>
+                    {item.dimensions.foldable && "Flat: "}
+                    {item.dimensions.height && `${item.dimensions.height}"`}
+                    {item.dimensions.width && ` x ${item.dimensions.width}"`}
+                    {item.dimensions.depth && ` x ${item.dimensions.depth}"`}
+                    {item.dimensions.foldable &&
+                        `, Folded: ${item.dimensions.fHeight}" x ${item.dimensions.fWidth}" x ${item.dimensions.fDepth}"`
+                    }
+                </div>
+                <div className='details-year'>{item.year}</div>
             </div>
 
-            <div className="details-spacer" />
-
-            <div className="details-img-container">
-                <img className="details-img" src={img} alt={itemDetails.img} />
-            </div>
+            {item.images.map((img, i) =>
+                <div className="details-img-container" key={i}>
+                    <img className="details-img" src={img.src} alt={img.alt} />
+                </div>
+            )}
 
             <footer />
         </div>
