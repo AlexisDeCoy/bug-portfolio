@@ -5,7 +5,6 @@ import PrintPortfolio from './views/PrintPortfolio';
 import PrintDetails from './views/PrintDetails';
 import DesignPortfolio from './views/DesignPortfolio';
 import DesignDetails from './views/DesignDetails';
-// import DesignDetailsTest from './views/DesignDetailsTest';
 import CurriculumVitae from './views/CurriculumVitae';
 import Teaching from './views/Teaching';
 import Contact from './views/Contact';
@@ -24,7 +23,6 @@ function App() {
         <Route element={<PrintDetails />} path='/prints/:id' />
         <Route element={<DesignPortfolio />} path='/designs/portfolio' />
         <Route element={<DesignDetails />} path='/designs/:id' />
-        {/* <Route element={<DesignDetailsTest />} path='/designs/test' /> */}
         <Route element={<Teaching />} path='/teaching' />
         <Route element={<CurriculumVitae />} path='/curriculum-vitae' />
         <Route element={<Contact />} path='/contact' />
